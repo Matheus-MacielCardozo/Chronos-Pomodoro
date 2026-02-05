@@ -1,6 +1,6 @@
-import { createContext } from "react";
-import type { TaskStateModel } from "../../models/taskStateModel";
-import { initialTaskState } from "./inialTaskState";
+import { createContext } from 'react';
+import type { TaskStateModel } from '../../models/taskStateModel';
+import { initialTaskState } from './initialTaskState';
 
 type TaskContextProps = {
   state: TaskStateModel;
